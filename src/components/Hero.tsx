@@ -20,8 +20,8 @@ const Hero = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="text-center">
           <motion.h1
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, scale: 0.90 }}
+            animate={{ opacity: 1, scale: }}
             transition={{ duration: 0.8 }}
             className="text-5xl md:text-7xl font-bold text-indigo-900 mb-8 leading-tight"
           >
