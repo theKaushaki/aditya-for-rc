@@ -21,11 +21,11 @@ const Hero = () => {
         <div className="text-center">
           <motion.h1
             initial={{ opacity: 0, scale: 0.90 }}
-            animate={{ opacity: 1, scale: }}
+            animate={{ opacity: 1, scale: 0.95 }}
             transition={{ duration: 0.8 }}
-            className="text-5xl md:text-7xl font-bold text-indigo-900 mb-8 leading-tight"
+            className="text-5xl md:text-6xl font-bold text-indigo-900 mb-8 leading-tight"
           >
-            Let's Make Nallamala a Home
+            Let's Make Nallamala our Home
           </motion.h1>
           
           <motion.h2
@@ -44,7 +44,7 @@ const Hero = () => {
             className="max-w-2xl mx-auto mb-12"
           >
             <p className="text-lg md:text-xl text-gray-700 mb-6 leading-relaxed">
-              I'm your peer — not just a candidate. And I'm just like you:
+              I'm your peer — not just another candidate. And I'm just like you:
             </p>
             
             <div className="space-y-4">

@@ -33,7 +33,7 @@ const WhyVoteSection = () => {
               If you elect me as your Regional Coordinator for Nallamala, you're voting for:
             </p>
             
-            <ul className="space-y-4 text-left max-w-2xl mx-auto">
+            <ul className="space-y-4 text-center max-w-2xl mx-auto">
               {reasons.map((reason, index) => (
                 <motion.li
                   key={index}
@@ -41,7 +41,7 @@ const WhyVoteSection = () => {
                   whileInView={{ opacity: 1, x: 0 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   viewport={{ once: true }}
-                  className="flex items-start"
+                  className="flex items-center justify-center"
                 >
                   <span className="text-indigo-600 font-bold mr-3 mt-1">•</span>
                   <span className="text-lg text-gray-700">{reason}</span>

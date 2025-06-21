@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <p className="text-sm text-gray-300">
-            © 2025 Aditya Hrudaya Sahoo. Regional Coordinator Candidate, Nallamala House, Kolkata Region.
+            © 2025 Aditya Hrudaya Sahoo. Regional Coordinator Candidate, Kolkata Region Nallamala House.
           </p>
         </div>
       </div>

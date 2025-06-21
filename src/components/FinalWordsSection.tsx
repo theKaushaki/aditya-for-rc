@@ -4,8 +4,8 @@ import { motion } from 'framer-motion';
 const FinalWordsSection = () => {
   const voteReasons = [
     "Vote for me if you believe Nallamala can be more than just a house name.",
-    "Vote for me if you want events you'll actually want to attend.",
-    "Vote for me if you want to build something that outlives a term."
+    "Vote for me if you want to build something that outlives a term.",
+    "Vote for me if you want events you'll actually want to attend."
   ];
 
   return (
@@ -19,7 +19,7 @@ const FinalWordsSection = () => {
           className="text-center"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-indigo-900 mb-12">
-            Final Words – Everything Matters
+            Final Words – Everyone And Everything Matters
           </h2>
           
           <div className="space-y-8">

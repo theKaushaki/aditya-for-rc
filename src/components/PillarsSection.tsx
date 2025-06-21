@@ -8,7 +8,7 @@ const PillarsSection = () => {
       title: "Connection Across States",
       icon: Users,
       content: [
-        "At least one offline meetup in Kolkata, Odisha, and North East every term",
+        "At least one offline meetup in Odisha, West Bengal, and the North East every term",
         "Monthly online bonding sessions - whether casual, academic, or creative",
         "Mandate for casual theme-based meetups to celebrate regional cultures and stories"
       ],
